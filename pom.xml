@@ -16,6 +16,15 @@
             <scope>system</scope>
             <systemPath>C:\Tarea1ci1322\generadorCodigoDML.jar</systemPath>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-annotations -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-annotations</artifactId>
+            <version>3.5.6-Final</version>
+        </dependency>
+
+
     </dependencies>
 
 

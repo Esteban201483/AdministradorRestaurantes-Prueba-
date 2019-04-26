@@ -1,7 +1,8 @@
 package ci1322.Prueba.Model;
 
-import ci1322.Tarea1.Annotations.Entity;
-import ci1322.Tarea1.Annotations.Table;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
 
 @Entity
 @Table(name = "Empleado")
