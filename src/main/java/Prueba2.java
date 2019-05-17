@@ -3,7 +3,8 @@ public class Prueba2 {
 
     public static void main(String args[])
     {
-       Prueba.main(args);
+        System.out.println("Prueba");
+        Prueba.main(args);
 
 
     }
