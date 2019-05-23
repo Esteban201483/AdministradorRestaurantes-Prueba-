@@ -6,6 +6,16 @@ import javax.persistence.*;
 @Entity
 @Table(name = "Empleado")
 public class Empleado {
+
+    @JoinTable
+    @JoinColumn
+    @Column (name="IDRestaurante",length=12)
+
+    @ManyToOne
+    private int IDRestaurante;
+
+
+
     @Id
     @Column(name="tmp")
     private int tmp;
