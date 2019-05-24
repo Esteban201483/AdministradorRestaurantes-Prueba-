@@ -7,13 +7,12 @@ import javax.persistence.*;
 @Table(name = "Empleado")
 public class Empleado {
 
-    @JoinTable
+    @JoinTable(name = "Estudiante")
     @JoinColumn
     @Column (name="IDRestaurante",length=12)
 
     @ManyToOne
     private int IDRestaurante;
-
 
 
     @Id
