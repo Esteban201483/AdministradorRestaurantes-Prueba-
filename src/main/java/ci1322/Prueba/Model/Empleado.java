@@ -19,8 +19,15 @@ public class Empleado {
     @Column(name="tmp")
     private int tmp;
 
+
+    @Column(name="salario")
+    private float salario;
+
     @Lob
-    @Column(name="lob")
+    @Column(name="pruebaLob")
     private int lob;
+
+    @Column(name="asegurado")
+    private boolean asegurado;
 }
 

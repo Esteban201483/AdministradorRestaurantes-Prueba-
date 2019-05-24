@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="AdministradordeRestaurantesProyectodeprueba" />
         <module name="ProyectoPrueba" />
+        <module name="Prueba" />
         <module name="Restaurante" />
       </profile>
     </annotationProcessing>
